@@ -1,7 +1,7 @@
 import html
 
-class QuizBrain:
 
+class QuizBrain:
     def __init__(self, q_list):
         self.question_number = 0
         self.score = 0
@@ -24,5 +24,3 @@ class QuizBrain:
             return True
         else:
             return False
-
-            
